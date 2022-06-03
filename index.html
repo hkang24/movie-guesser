@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body class="bg-light">
+    <div
+      class=" bg-light container text-center mt-4 p-3"
+    >
+      <div class="card p-3">
+        <p class="fw-bold fs-5 mt-5 mb-4" style="color: rgb(47, 47, 47)">
+          Badly explained movies
+        </p>
+        <hr />
+        <div id="description" class="text-center my-2"></div>
+        <div id="hint"></div>
+        <hr />
+        <div class="input-group my-4">
+          <input
+            id="input"
+            type="text"
+            class="form-control"
+            placeholder="Enter you guess here"
+          />
+        </div>
+        <div class="d-grid gap-2">
+          <button id="submit" type="submit" class="btn btn-primary">
+            Submit
+          </button>
+        </div>
+        <hr />
+        <div class="d-grid gap-2">
+          <button
+            id="hint-button"
+            class="btn btn-light border d-grid mb-3"
+            type="button"
+          >
+            Show Hint
+          </button>
+        </div>
+        <div id="output" class=""></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
